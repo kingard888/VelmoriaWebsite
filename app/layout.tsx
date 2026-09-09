@@ -4,11 +4,20 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Velmoria — Fantasy RPG",
   description:
-    "Velmoria adalah dunia fantasy RPG interaktif yang hadir langsung melalui WhatsApp."
+    "Enter the world of Velmoria, an interactive fantasy RPG universe powered by WhatsApp.",
+  keywords: [
+    "Velmoria",
+    "Fantasy RPG",
+    "WhatsApp RPG",
+    "RPG Bot",
+    "Adventure",
+    "Dungeon",
+    "Guild",
+  ],
 };
 
 export default function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
